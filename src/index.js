@@ -14,6 +14,7 @@ app.use(cors({
     methods: ["GET", "POST", "PATCH"]
 }))
 
+//api route 
 app.use("/users", userRouter)
 
 
